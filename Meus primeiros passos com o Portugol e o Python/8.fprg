@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="WINDOWS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-07 10:25:22 "/>
+        <attribute name="created" value="V0lORE9XUztERVNLVE9QLU03OTFBOEg7MjAyMi0wNS0wNzsiMTA6MjA6MTMgIjsyNzQ5"/>
+        <attribute name="edited" value="V0lORE9XUztERVNLVE9QLU03OTFBOEg7MjAyMi0wNS0wNzsiMTA6MjU6MjIgIjsxOzI4NjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <output expression="&quot;Qual o seu nome, jamanta?&quot;" newline="True"/>
+            <input variable="nome"/>
+            <if expression="nome=&quot;Ricardo&quot;">
+                <then>
+                    <output expression="&quot;Belo nome!!!&quot;" newline="True"/>
+                    <output expression="&quot;Tamb&#233;m me chamo Ricardo!!!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Ok, Jos&#233;!&quot;" newline="True"/>
+                    <output expression="&quot;Ops, o seu nome &#233;: &quot; &amp;nome" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

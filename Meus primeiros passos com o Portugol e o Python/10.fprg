@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="WINDOWS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-07 11:10:51 "/>
+        <attribute name="created" value="V0lORE9XUztERVNLVE9QLU03OTFBOEg7MjAyMi0wNS0wNzsiMTA6NDA6MzUgIjsyNzU1"/>
+        <attribute name="edited" value="V0lORE9XUztERVNLVE9QLU03OTFBOEg7MjAyMi0wNS0wNzsiMTE6MTA6NTEgIjsyOzI4NjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tabuada, maximo, ordem, total" type="Integer" array="False" size=""/>
+            <assign variable="ordem" expression="0"/>
+            <output expression="&quot;Digite qual a tabuada que deseja, jovem: &quot;" newline="True"/>
+            <input variable="tabuada"/>
+            <assign variable="total" expression="tabuada*ordem"/>
+            <assign variable="maximo" expression="10"/>
+            <while expression="ordem&lt;=maximo">
+                <output expression="ordem &amp;&quot; vezes &quot; &amp;tabuada &amp;&quot; &#233; igual a &quot; &amp;total" newline="True"/>
+                <assign variable="ordem" expression="ordem+1"/>
+                <assign variable="total" expression="ordem*tabuada"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
